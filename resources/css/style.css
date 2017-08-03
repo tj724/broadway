@@ -3,14 +3,27 @@ html{
     text-align: center;
 }
 
-#header, #nav a{
+#header, #design_ny, #footer{
     color: white;
     background-image: url(../images/the-flatiron-building.png);
 }
 
-h1{
-    font-size: 70px;
-    font-weight: bold;
+#header a, #footer a{
+    color: white;
+    font-size: 18px;
+}
+
+#footer{
+    text-align: left;
+}
+
+#footer p{
+    font-size: 11px;
+    background-color: dimgray;
+}
+
+#main{
+    color: black;
 }
 
 #nav{
@@ -18,7 +31,22 @@ h1{
     font-size: 18px;
 }
 
-
-#main{
-    color: black;
+h1{
+    font-size: 70px;
+    font-weight: bold;
 }
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 14px;
+}
+
